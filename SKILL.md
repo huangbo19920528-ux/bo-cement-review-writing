@@ -1,6 +1,7 @@
 ---
 name: bo-cement-review-writing
-description: Plan, research, draft, illustrate, revise, and audit evidence-grounded review manuscripts in cementitious materials and construction materials. Use for literature-review topic selection, novelty and overlap checks, SCI/JBDE-style critical reviews, DOI-verified reference libraries, evidence tables, mechanism figures, published-image permissions, figure-source registers, DOCX manuscript production, benchmark comparison against strong reviews, and final scientific, visual, citation, and reproducibility audits. 閫傜敤浜庘€滄枃鐚患杩伴€夐銆佺患杩板垵绋裤€丼CI缁艰堪鍐欎綔銆佹牳楠屽弬鑰冩枃鐚€佹満鐞嗗浘涓庣収鐗囥€佺増鏉冩函婧愩€佹煡閲嶅浘鍍忋€侀€愰〉鑷煡銆佸鏍囬珮姘村钩缁艰堪鈥濈瓑浠诲姟銆?---
+description: Plan, research, draft, illustrate, revise, and audit evidence-grounded review manuscripts in cementitious materials and construction materials. Use for literature-review topic selection, novelty and overlap checks, SCI/JBDE-style critical reviews, DOI-verified reference libraries, evidence tables, mechanism figures, published-image permissions, figure-source registers, DOCX manuscript production, benchmark comparison against strong reviews, and final scientific, visual, citation, and reproducibility audits. 适用于“文献综述选题、综述初稿、SCI综述写作、核验参考文献、机理图与照片、版权溯源、查重图像、逐页自查、对标高水平综述”等任务。
+---
 
 # Bo Cement Review Writing
 
@@ -34,7 +35,7 @@ rendered-page quality as one connected workflow.
 - Retain the topic only if it adds a defensible synthesis axis, evidence framework,
   comparison unit, dataset, or research agenda.
 - Write a one-sentence novelty claim that could survive peer review. If it depends only on
-  鈥渕ore recent papers,鈥?narrow or redesign the topic.
+  “more recent papers,” narrow or redesign the topic.
 
 Read [references/benchmarking-protocol.md](references/benchmarking-protocol.md) when
 selecting benchmark reviews or testing topic novelty.
@@ -83,23 +84,24 @@ before finalizing the library.
   7. cross-study synthesis and design implications;
   8. scale-up, sustainability, reporting requirements, and research agenda;
   9. conclusions.
-- Keep methods reproducible but proportionate. Do not label a narrative search 鈥渟ystematic鈥?  unless its protocol and reporting support that claim.
+- Keep methods reproducible but proportionate. Do not label a narrative search “systematic”
+  unless its protocol and reporting support that claim.
 
 Read [references/manuscript-architecture.md](references/manuscript-architecture.md) when
 building or shortening the outline.
 
-### 5. Draft in claim鈥揺vidence units
+### 5. Draft in claim–evidence units
 
 - Start each paragraph with a scientific claim or comparison, then supply the evidence,
   boundary conditions, conflicts, and interpretation.
 - Use author-led sentences when attribution matters, but avoid a repetitive list of
-  鈥淴 et al. found鈥︹€?
+  “X et al. found…”.
 - Avoid citation piles attached to a broad sentence. Split distinct claims and place each
   citation beside the statement it supports.
 - Prefer primary evidence for causal and numerical claims; use reviews for orientation.
 - State whether reported improvements use equal water, equal workability, nominal or total
   water-to-binder ratio, dry or suspension dosage, and matched processing.
-- Separate observation from explanation. Use 鈥渋s consistent with鈥?when the mechanism is
+- Separate observation from explanation. Use “is consistent with” when the mechanism is
   inferred rather than directly measured.
 - Explain contradictory findings through material identity, suspension solids, carrier
   water, pore-solution stability, dispersion energy, admixture chemistry, air, curing, and
@@ -110,7 +112,7 @@ building or shortening the outline.
 
 - Prefer one finding, comparison, limitation, or recommendation per row.
 - Include a dedicated reference column when rows summarize published evidence.
-- Separate reported data from the review authors鈥?interpretation.
+- Separate reported data from the review authors’ interpretation.
 - Include comparison variables that expose confounders: material class, dimensions, surface
   chemistry, delivery state, dry dosage, water treatment, mixing, binder, age, and outcome.
 - Do not fill cells with qualitative scores unless the scoring rule and source evidence are
@@ -136,7 +138,7 @@ building or shortening the outline.
   [assets/figure-source-register.csv](assets/figure-source-register.csv).
 - Prefer original or openly reusable field photographs. A visually appealing image does not
   justify uncertain copyright or scientific relevance.
-- For a long critical review, 8鈥?2 substantive figures may be reasonable, but stop when each
+- For a long critical review, 8–12 substantive figures may be reasonable, but stop when each
   remaining figure would be decorative or redundant.
 
 Read [references/figure-and-permission-protocol.md](references/figure-and-permission-protocol.md)
@@ -148,7 +150,7 @@ python scripts/validate_figure_register.py assets/figure-source-register.csv
 
 ### 8. Synthesize across studies
 
-- Compare material鈥搈ixture鈥損rocessing combinations rather than treating the paper as the
+- Compare material–mixture–processing combinations rather than treating the paper as the
   comparison unit.
 - Grade confidence using directness, measurement quality, outcome consistency, and
   independent replication.
