@@ -15,14 +15,14 @@
 - [ ] Search date, databases, queries, filters, and exclusions are reported.
 - [ ] Source counts match everywhere.
 - [ ] The evidence-extraction and synthesis methods are clear.
-- [ ] 鈥淪ystematic鈥?is used only when justified.
+- [ ] “Systematic” is used only when justified.
 
 ## Structure and prose
 
 - [ ] Each main section answers a scientific question.
 - [ ] Thin subsections have been merged.
 - [ ] Paragraphs contain claim, evidence, boundary, and synthesis.
-- [ ] Citation piles and repetitive 鈥淴 et al.鈥?sentences have been revised.
+- [ ] Citation piles and repetitive “X et al.” sentences have been revised.
 - [ ] Generic, duplicated, and low-value text has been removed.
 
 ## Tables
