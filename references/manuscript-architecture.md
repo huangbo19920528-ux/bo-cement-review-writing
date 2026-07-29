@@ -33,6 +33,7 @@ several unrelated ideas.
 
 Report:
 
+- local corpus construction or PDF-processing route when used;
 - databases and search date;
 - complete concepts or queries;
 - date and language limits;
@@ -41,6 +42,7 @@ Report:
 - update search;
 - evidence-extraction unit;
 - synthesis method;
+- backward and forward citation-chaining method when used;
 - why meta-analysis was or was not appropriate.
 
 Keep final source counts synchronized with the abstract, flow figure, methods, and reference
@@ -60,6 +62,23 @@ Use material–mixture–processing combinations as comparison units. For each d
 
 Replace “more research is needed” with staged questions, minimum deliverables, failure
 criteria, and evidence motivating each stage.
+
+## Journal expression
+
+Use the target journal's current author guide and recent accepted papers to normalize title
+structure, abstract density, headings, captions, units, abbreviations, and references. Learn
+disciplinary phrasing without copying sentences. Do not mechanically force passive voice;
+prefer precise, concise, evidence-linked prose.
+
+## Author closing pass
+
+Require the author to:
+
+- revise hard or generic transitions;
+- state an original, defensible judgement on central controversies;
+- recheck claim-level citations and page locations;
+- approve the novelty claim, limitations, and conclusion scope;
+- remove any wording that implies the AI performed experiments or made scholarly decisions.
 
 ## Shortening pass
 
