@@ -16,6 +16,7 @@ interpretation, numerical value, or mechanism is correct.
 
 Use one row per material–mixture–processing–outcome combination. Record:
 
+- source DOI, local record ID, page or section, and acquisition status;
 - material source, pretreatment, morphology, and surface chemistry;
 - dimensions, crystallinity, charge, solids, pH, and delivery state;
 - dry-equivalent dosage and suspension dosage;
@@ -28,6 +29,34 @@ Use one row per material–mixture–processing–outcome combination. Record:
 - limitation and evidence-directness class.
 
 Use `not reported` rather than inventing a value.
+
+## Citation chaining
+
+Use benchmark reviews and field-defining primary studies as seeds.
+
+- inspect backward references for original methods, early observations, and primary data;
+- inspect forward citations for replication, changed boundary conditions, contradictions,
+  negative results, and scale-up;
+- use Crossref, OpenAlex, Semantic Scholar, publisher records, or equivalent lawful sources
+  for discovery and metadata;
+- verify the primary full text before using a citation context as evidence;
+- record inaccessible full text in an acquisition queue rather than bypassing access.
+
+Run a second distillation after citation chaining. Compare old and new evidence, connected
+research programmes, unresolved disagreements, and claims whose scope has narrowed.
+
+## Controlled batch processing
+
+- group full texts by one declared research question;
+- keep a batch manifest;
+- extract evidence cards before drafting;
+- retain page, section, table, or figure locations for decisive claims;
+- merge cards into the master matrix and re-run deduplication;
+- check batch summaries against source text;
+- draft only after the matrix exposes sufficient coverage and contradiction handling.
+
+Do not feed hundreds of unstructured PDFs into a single prompt and treat fluent prose as
+evidence synthesis.
 
 ## Evidence hierarchy
 
