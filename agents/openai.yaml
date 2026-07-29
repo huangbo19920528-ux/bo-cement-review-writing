@@ -1,5 +1,5 @@
 interface:
   display_name: "Bo Cement Review Writing"
-  short_description: "Build rigorous cement-material review manuscripts"
-  default_prompt: "Use $bo-cement-review-writing to plan, draft, verify, illustrate, and audit a critical review manuscript."
+  short_description: "Distil evidence and build publication-grade reviews"
+  default_prompt: "Use $bo-cement-review-writing to build a traceable literature corpus, distil the evidence, and produce a publication-grade review with rigorously sourced figures."
 
