@@ -19,7 +19,7 @@ Delete a figure whose role duplicates another figure.
 
 ### Original synthesis
 
-Redraw the review authors鈥?own cross-study logic, comparisons, and decision frameworks.
+Redraw the review authors’ own cross-study logic, comparisons, and decision frameworks.
 Do not trace a published figure and call it original.
 
 ### Adapted published content
