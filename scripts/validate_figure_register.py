@@ -13,15 +13,24 @@ from pathlib import Path
 REQUIRED_COLUMNS = {
     "figure",
     "panel",
+    "panel_purpose",
+    "evidence_claim",
     "role",
     "source_id",
     "source_type",
     "doi_or_url",
+    "source_figure_or_page",
     "creator_or_institution",
     "license_or_terms",
     "permission_status",
     "attribution_text",
+    "local_asset",
     "duplicate_hash_check",
+    "legacy_label_check",
+    "completeness_check",
+    "scale_bar_or_axes_check",
+    "scientific_integrity_check",
+    "final_size_legibility",
     "final_visual_check",
 }
 
@@ -33,6 +42,25 @@ ALLOWED_PERMISSION = {
     "permission-required",
     "not-used",
 }
+
+ALLOWED_CHECK = {"pass", "not-applicable"}
+
+ORIGINAL_SOURCE_TYPES = {
+    "original",
+    "original-synthesis",
+    "replotted-data",
+    "author-owned-photo",
+    "not-used",
+}
+
+PANEL_CHECKS = (
+    "duplicate_hash_check",
+    "legacy_label_check",
+    "completeness_check",
+    "scale_bar_or_axes_check",
+    "scientific_integrity_check",
+    "final_size_legibility",
+)
 
 
 def main() -> int:
@@ -65,21 +93,31 @@ def main() -> int:
             errors.append(f"line {number} ({label}): invalid permission_status '{status}'")
         if status == "permission-required":
             errors.append(f"line {number} ({label}): permission remains required")
+        if status != "not-used":
+            for field in ("figure", "panel_purpose", "evidence_claim", "role", "local_asset"):
+                if not row[field].strip():
+                    errors.append(f"line {number} ({label}): missing {field}")
         if status not in {"original", "not-used"}:
             for field in (
                 "source_id",
                 "doi_or_url",
+                "source_figure_or_page",
                 "creator_or_institution",
                 "license_or_terms",
                 "attribution_text",
             ):
                 if not row[field].strip():
                     errors.append(f"line {number} ({label}): missing {field}")
-        if source_type not in {"original", "not-used"} and source_id:
+        if source_type not in ORIGINAL_SOURCE_TYPES and source_id:
             source_keys.append(source_id.casefold())
-        if row["duplicate_hash_check"].strip().lower() not in {"pass", "not-applicable"}:
-            warnings.append(f"line {number} ({label}): duplicate hash check not recorded")
-        if row["final_visual_check"].strip().lower() != "pass":
+        if status != "not-used":
+            for field in PANEL_CHECKS:
+                value = row[field].strip().lower()
+                if value not in ALLOWED_CHECK:
+                    errors.append(
+                        f"line {number} ({label}): {field} must be pass or not-applicable"
+                    )
+        if status != "not-used" and row["final_visual_check"].strip().lower() != "pass":
             warnings.append(f"line {number} ({label}): final visual check not recorded")
 
     repeated = sorted(key for key, count in Counter(source_keys).items() if count > 1)
