@@ -49,7 +49,7 @@ Classify overlap separately:
 
 A topic can remain novel despite material overlap if it contributes a new comparison unit,
 evidence framework, dataset, mechanism reconciliation, scale-up analysis, or reproducibility
-standard. 鈥淩ecent progress鈥?alone is weak novelty.
+standard. “Recent progress” alone is weak novelty.
 
 ## Benchmark the completed manuscript
 
