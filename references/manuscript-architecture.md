@@ -48,7 +48,7 @@ list.
 
 ## Results and synthesis
 
-Use material鈥搈ixture鈥損rocessing combinations as comparison units. For each domain:
+Use material–mixture–processing combinations as comparison units. For each domain:
 
 - establish the relevant descriptors;
 - compare direction and magnitude;
@@ -58,7 +58,7 @@ Use material鈥搈ixture鈥損rocessing combinations as comparison units. For ea
 
 ## Research agenda
 
-Replace 鈥渕ore research is needed鈥?with staged questions, minimum deliverables, failure
+Replace “more research is needed” with staged questions, minimum deliverables, failure
 criteria, and evidence motivating each stage.
 
 ## Shortening pass
