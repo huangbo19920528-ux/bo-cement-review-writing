@@ -14,7 +14,7 @@ interpretation, numerical value, or mechanism is correct.
 
 ## Evidence extraction
 
-Use one row per material鈥搈ixture鈥損rocessing鈥搊utcome combination. Record:
+Use one row per material–mixture–processing–outcome combination. Record:
 
 - material source, pretreatment, morphology, and surface chemistry;
 - dimensions, crystallinity, charge, solids, pH, and delivery state;
@@ -37,7 +37,7 @@ Use `not reported` rather than inventing a value.
 - **Triangulated inference:** several independent methods or studies converge.
 - **Speculation:** plausible explanation without discriminating evidence.
 
-Match the language to the class. Use 鈥渄emonstrates鈥?only for direct, discriminating evidence.
+Match the language to the class. Use “demonstrates” only for direct, discriminating evidence.
 
 ## Citation placement
 
