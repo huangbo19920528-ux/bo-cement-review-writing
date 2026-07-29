@@ -12,7 +12,10 @@
 ## Scope and method
 
 - [ ] The novelty claim remains defensible after the final search update.
+- [ ] The local corpus has a manifest, extraction log, and acquisition-status record.
 - [ ] Search date, databases, queries, filters, and exclusions are reported.
+- [ ] Backward and forward citation chasing was documented where used.
+- [ ] A second distillation compared older and newer evidence.
 - [ ] Source counts match everywhere.
 - [ ] The evidence-extraction and synthesis methods are clear.
 - [ ] “Systematic” is used only when justified.
@@ -35,13 +38,20 @@
 
 ## Figures
 
+- [ ] Every figure has an approved figure brief and a scientific question.
 - [ ] Every figure has a unique role.
+- [ ] The complete figure set was compared with the visual-precedent bank.
 - [ ] No panel, crop, or photograph is repeated.
 - [ ] Panel labels are consistent and at the upper left.
+- [ ] Labels use plain high-contrast text without unnecessary opaque badges.
 - [ ] Panel descriptions are in captions.
 - [ ] No inherited label, legend, or text is clipped.
+- [ ] Every source panel is complete rather than an unexplained partial crop.
 - [ ] Fonts, line weights, colours, and border treatments are coherent.
+- [ ] Every dense panel remains legible at its intended page width.
 - [ ] Micrographs retain scale bars and necessary annotations.
+- [ ] Mechanism figures use material-specific, editable, evidence-linked elements.
+- [ ] No generative edit fabricates, beautifies, or replaces experimental evidence.
 - [ ] Every external panel has a source and acceptable permission status.
 - [ ] Distinct studies or programmes are not presented as paired experiments.
 
@@ -67,5 +77,6 @@
 - [ ] The complete manuscript was compared with benchmark reviews.
 - [ ] Its evidence density, critical depth, table utility, and figure quality are competitive.
 - [ ] Differences from benchmarks are scientifically justified.
+- [ ] The author personally checked disputed interpretations and added original judgement.
 - [ ] Internal drafting notes, version labels, and instructions to authors were removed.
 
