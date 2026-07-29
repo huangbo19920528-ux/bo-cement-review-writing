@@ -1,5 +1,9 @@
 # Figure and permission protocol
 
+Use this file for source provenance and permission decisions. Use
+`references/visual-benchmark-and-production-protocol.md` for precedent selection, figure
+briefs, composition, and visual quality.
+
 ## Figure roles
 
 Assign one primary role to each figure:
@@ -41,6 +45,8 @@ and access date. Public availability does not automatically mean unrestricted re
 ## Panel design
 
 - Place `(a)`, `(b)`, and later labels at the upper left using one style.
+- Prefer plain high-contrast labels without opaque badges unless image contrast requires
+  one.
 - Keep labels clear without obscuring the evidence.
 - Remove inherited panel letters when composing a new multi-panel figure, unless permission
   or scientific integrity requires the unmodified original.
@@ -49,12 +55,27 @@ and access date. Public availability does not automatically mean unrestricted re
 - Use legible type at final printed size.
 - Preserve scale bars, axes, units, legends, and required annotations.
 - Do not stretch, crop away data, or present a partial image as complete.
+- Use one source image per panel unless the panel is explicitly a labelled montage.
+- Reject a panel whose source text, scale bar, legend, or boundary is visibly incomplete.
+
+## Mechanism figures
+
+- Build editable vector artwork from the review's synthesis.
+- Link each arrow, process, or causal claim to evidence.
+- Distinguish measured mechanisms from hypotheses.
+- Use material-specific visual elements and meaningful scale or time hierarchy.
+- Avoid stock icons, generic boxes, childish geometry, decorative gradients, dense prose,
+  and unexplained arrows.
+- Do not trace a published mechanism or use generative imagery to simulate experimental
+  evidence.
 
 ## Quality checks
 
 - compare each panel against the registered source;
 - check for duplicate source IDs and duplicate image hashes;
 - inspect legends and text at final page scale;
+- confirm each panel passes completeness, legacy-label, scientific-annotation, resolution,
+  and final-size-legibility checks;
 - confirm colour meaning is consistent and remains interpretable in grayscale;
 - state when panels document different programmes rather than one paired experiment;
 - avoid implying validation beyond the scale actually shown.
@@ -72,4 +93,6 @@ one of:
 - `not-used`.
 
 Do not submit a figure with `permission-required`.
+Do not mark `final_visual_check` as `pass` until the figure has been rendered at its intended
+page width and inspected with its caption.
 
