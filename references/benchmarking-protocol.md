@@ -8,7 +8,14 @@ phrasing or figure composition.
 
 ## Select benchmark reviews
 
-Choose three to six papers that collectively satisfy:
+Use two tiers.
+
+**Pattern-learning tier:** inspect roughly 10–30 classic, highly influential, or
+field-defining reviews to identify recurrent review architecture, argumentative moves,
+evidence-table design, and discussion closure.
+
+**Close-comparison tier:** choose three to six directly relevant recent reviews that
+collectively satisfy:
 
 - relevant material system, mechanism, or application;
 - strong journal and current relevance;
@@ -18,6 +25,8 @@ Choose three to six papers that collectively satisfy:
 - accessible full text for complete inspection.
 
 Avoid choosing all benchmarks from one research group or one publisher.
+Do not select papers by citation count alone. Include a scientifically strong recent review
+even when it has not had time to accumulate citations.
 
 ## Extract comparable fields
 
@@ -30,6 +39,7 @@ Populate `assets/benchmark-review-matrix.csv` with:
 - search and screening transparency;
 - section architecture;
 - number and function of figures and tables;
+- visual evidence types, panel logic, caption architecture, and final-size legibility;
 - treatment of contradictory evidence;
 - limitations and research agenda;
 - distinctive strengths;
@@ -68,4 +78,6 @@ short reason for:
 - reference and permission integrity.
 
 Revise the manuscript where a gap affects scientific credibility or reader utility.
+Learn shared design and rhetorical principles; do not imitate a single article's outline,
+phrasing, figure composition, or decorative conventions.
 
