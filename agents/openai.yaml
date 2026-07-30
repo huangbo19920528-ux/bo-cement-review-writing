@@ -1,5 +1,4 @@
 interface:
   display_name: "Bo Cement Review Writing"
-  short_description: "Distil evidence and build publication-grade reviews"
-  default_prompt: "Use $bo-cement-review-writing to build a traceable literature corpus, distil the evidence, and produce a publication-grade review with rigorously sourced figures."
-
+  short_description: "Build evidence-grounded reviews and auditable figures"
+  default_prompt: "Use $bo-cement-review-writing to build a traceable literature corpus, distil the evidence, and produce a publication-grade review with source-traced figures that pass a final-size visual audit."

@@ -91,4 +91,3 @@ but a target count is never a quality criterion. Add a source only when it:
 
 Remove duplicate reviews, weakly relevant citations, and sources cited only to inflate
 coverage.
-

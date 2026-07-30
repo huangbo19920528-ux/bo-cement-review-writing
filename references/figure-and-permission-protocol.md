@@ -72,6 +72,8 @@ and access date. Public availability does not automatically mean unrestricted re
 ## Quality checks
 
 - compare each panel against the registered source;
+- trace each panel through source, transformation, caption claim, manuscript claim, and
+  limitation;
 - check for duplicate source IDs and duplicate image hashes;
 - inspect legends and text at final page scale;
 - confirm each panel passes completeness, legacy-label, scientific-annotation, resolution,
@@ -96,3 +98,7 @@ Do not submit a figure with `permission-required`.
 Do not mark `final_visual_check` as `pass` until the figure has been rendered at its intended
 page width and inspected with its caption.
 
+Complete the transformation and claim-trace fields even for original synthesis panels.
+For a source panel, state every crop, resize, tonal adjustment, label removal, or montage
+operation. For an original panel, state the derivation and the evidence matrix rows that
+support its caption and manuscript claims.

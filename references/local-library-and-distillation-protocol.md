@@ -112,4 +112,3 @@ Manually inspect:
 
 Report extraction failures and inaccessible papers as limitations rather than silently
 discarding them.
-

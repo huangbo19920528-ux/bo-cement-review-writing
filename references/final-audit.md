@@ -39,6 +39,8 @@
 ## Figures
 
 - [ ] Every figure has an approved figure brief and a scientific question.
+- [ ] Every figure has frozen final-width acceptance criteria.
+- [ ] Prior author decisions were preserved; no rejected figure was reintroduced.
 - [ ] Every figure has a unique role.
 - [ ] The complete figure set was compared with the visual-precedent bank.
 - [ ] No panel, crop, or photograph is repeated.
@@ -54,6 +56,10 @@
 - [ ] No generative edit fabricates, beautifies, or replaces experimental evidence.
 - [ ] Every external panel has a source and acceptable permission status.
 - [ ] Distinct studies or programmes are not presented as paired experiments.
+- [ ] Every panel is traced to its source, transformation, caption claim, manuscript claim,
+      and limitation.
+- [ ] Detailed plots or annotated panels were split when final-size text was not readable.
+- [ ] No figure exceeded two critique-and-revision rounds.
 
 ## Numbering and references
 
@@ -66,6 +72,7 @@
 ## Rendered-page inspection
 
 - [ ] Every page was rendered and inspected.
+- [ ] Every figure was judged in the rendered manuscript rather than only as a source PNG.
 - [ ] No image, equation, caption, table, or reference is clipped.
 - [ ] Figures and captions remain together where practical.
 - [ ] Subscripts, superscripts, symbols, and units render correctly.
@@ -79,4 +86,3 @@
 - [ ] Differences from benchmarks are scientifically justified.
 - [ ] The author personally checked disputed interpretations and added original judgement.
 - [ ] Internal drafting notes, version labels, and instructions to authors were removed.
-
