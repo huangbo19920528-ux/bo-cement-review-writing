@@ -24,6 +24,11 @@ REQUIRED_COLUMNS = {
     "license_or_terms",
     "permission_status",
     "attribution_text",
+    "transformation_or_derivation",
+    "caption_claim",
+    "supported_manuscript_claims",
+    "limitations",
+    "manuscript_locator",
     "local_asset",
     "duplicate_hash_check",
     "legacy_label_check",
@@ -94,7 +99,18 @@ def main() -> int:
         if status == "permission-required":
             errors.append(f"line {number} ({label}): permission remains required")
         if status != "not-used":
-            for field in ("figure", "panel_purpose", "evidence_claim", "role", "local_asset"):
+            for field in (
+                "figure",
+                "panel_purpose",
+                "evidence_claim",
+                "role",
+                "transformation_or_derivation",
+                "caption_claim",
+                "supported_manuscript_claims",
+                "limitations",
+                "manuscript_locator",
+                "local_asset",
+            ):
                 if not row[field].strip():
                     errors.append(f"line {number} ({label}): missing {field}")
         if status not in {"original", "not-used"}:
@@ -136,4 +152,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-
