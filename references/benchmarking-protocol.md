@@ -80,4 +80,3 @@ short reason for:
 Revise the manuscript where a gap affects scientific credibility or reader utility.
 Learn shared design and rhetorical principles; do not imitate a single article's outline,
 phrasing, figure composition, or decorative conventions.
-
