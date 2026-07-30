@@ -91,4 +91,3 @@ Remove:
 - decorative figures;
 - tables that duplicate prose;
 - speculative future applications without a validation route.
-
