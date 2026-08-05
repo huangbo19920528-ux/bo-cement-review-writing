@@ -12,20 +12,30 @@
 ## Scope and method
 
 - [ ] The novelty claim remains defensible after the final search update.
+- [ ] Stretch, best-fit, and floor targets were checked against current official scope,
+      article-type eligibility, invitation/proposal status, and author guides.
+- [ ] The selected synthesis profile matches the journal readership and review question.
+- [ ] A desk-rejection simulation passed eligibility, novelty, scope, and method-label
+      accuracy.
 - [ ] The local corpus has a manifest, extraction log, and acquisition-status record.
 - [ ] Search date, databases, queries, filters, and exclusions are reported.
 - [ ] Backward and forward citation chasing was documented where used.
 - [ ] A second distillation compared older and newer evidence.
 - [ ] Source counts match everywhere.
 - [ ] The evidence-extraction and synthesis methods are clear.
-- [ ] “Systematic” is used only when justified.
+- [ ] 鈥淪ystematic鈥?is used only when justified.
+- [ ] A targeted critical review states its non-exhaustive search limitation plainly.
+- [ ] Extracted review data, search records, code, and figure provenance have a repository
+      or a truthful data-availability statement.
+- [ ] Required AI-use, competing-interest, funding, and data declarations are prepared from
+      current journal policy.
 
 ## Structure and prose
 
 - [ ] Each main section answers a scientific question.
 - [ ] Thin subsections have been merged.
 - [ ] Paragraphs contain claim, evidence, boundary, and synthesis.
-- [ ] Citation piles and repetitive “X et al.” sentences have been revised.
+- [ ] Citation piles and repetitive 鈥淴 et al.鈥?sentences have been revised.
 - [ ] Generic, duplicated, and low-value text has been removed.
 
 ## Tables
@@ -60,6 +70,9 @@
       and limitation.
 - [ ] Detailed plots or annotated panels were split when final-size text was not readable.
 - [ ] No figure exceeded two critique-and-revision rounds.
+- [ ] Under a stretch profile, at least one author-original figure creates a comparison,
+      mechanism, uncertainty, or decision framework rather than decorating the topic.
+- [ ] The first scientific figure communicates the manuscript's synthesis contribution.
 
 ## Numbering and references
 
@@ -86,3 +99,6 @@
 - [ ] Differences from benchmarks are scientifically justified.
 - [ ] The author personally checked disputed interpretations and added original judgement.
 - [ ] Internal drafting notes, version labels, and instructions to authors were removed.
+- [ ] A transfer map identifies substantive changes for the best-fit and floor journals;
+      it does not merely replace journal names.
+

@@ -1,4 +1,5 @@
 interface:
   display_name: "Bo Cement Review Writing"
-  short_description: "Build evidence-grounded reviews and auditable figures"
-  default_prompt: "Use $bo-cement-review-writing to build a traceable literature corpus, distil the evidence, and produce a publication-grade review with source-traced figures that pass a final-size visual audit."
+  short_description: "Target and build evidence-grounded cement reviews"
+  default_prompt: "Use $bo-cement-review-writing to select a defensible high-ambition journal ladder, strengthen the evidence synthesis and figures, and deliver a publication-ready cementitious-materials review."
+
