@@ -1,7 +1,6 @@
 ---
 name: bo-cement-review-writing
-description: Plan, research, distil, draft, illustrate, revise, and audit evidence-grounded review manuscripts in cementitious and construction materials. Use for local PDF-library analysis, review-topic novelty checks, classic-review benchmarking, backward and forward citation chasing, DOI-verified evidence matrices, batch full-text synthesis, SCI/JBDE-style critical reviews, mechanism figures, published photographs and micrographs, figure permissions, DOCX production, benchmark comparison, and final scientific, visual, citation, and reproducibility audits. 适用于“本地PDF文献库、综述选题、经典综述拆解、引文追踪、二次蒸馏、SCI综述写作、核验参考文献、机理图与照片、版权溯源、逐页自查、对标高水平综述”等任务。
----
+description: Plan, research, distil, draft, illustrate, revise, target, and audit evidence-grounded review manuscripts in cementitious and construction materials. Use for local PDF-library analysis, topic-novelty checks, high-ambition journal ladders, article-type and invitation eligibility checks, classic-review benchmarking, citation chasing, DOI-verified evidence matrices, quantitative or critical synthesis, mechanism figures, published photographs and micrographs, figure permissions, editorial pitches, journal-cascade planning, DOCX production, and final scientific, visual, citation, policy, and reproducibility audits. 閫傜敤浜庘€滄湰鍦癙DF鏂囩尞搴撱€佺患杩伴€夐銆侀珮瀹氫綅鏈熷垔鍒嗗眰銆侀個绋胯祫鏍兼牳楠屻€佺粡鍏哥患杩版媶瑙ｃ€佸紩鏂囪拷韪€佷簩娆¤捀棣忋€丼CI缁艰堪鍐欎綔銆佸畾閲忕患鍚堛€佹牳楠屽弬鑰冩枃鐚€佹満鐞嗗浘涓庣収鐗囥€佺増鏉冩函婧愩€侀€愰〉鑷煡銆佸鏍囬珮姘村钩缁艰堪銆侀檷妗ｈ浆鎶曗€濈瓑浠诲姟銆?---
 
 # Bo Cement Review Writing
 
@@ -30,6 +29,12 @@ rendered-page quality as one connected workflow.
     decision.
 11. Require author judgement for disputed interpretations, novelty claims, and final
     submission approval.
+12. Verify current journal scope, article-type eligibility, invitation status, author
+    guide, and AI/data policies from live official sources; never rely on remembered
+    rankings or an old template.
+13. Aim at the highest scientifically defensible venue, but do not inflate method labels,
+    evidence maturity, mechanism certainty, quantitative precision, or application
+    readiness to mimic a prestigious journal.
 
 ## Workflow
 
@@ -52,23 +57,40 @@ before processing a large PDF collection.
 
 ### 2. Define the gap before fixing the title
 
-- Record the target journal, intended scientific level, material system, practical
-  problem, date range, and review type.
+- Record a three-level target ladder: stretch, best-fit, and floor journals. For each,
+  verify scope, readership, accepted review type, invitation or proposal requirements,
+  current author guide, and recent comparable reviews.
+- Classify the intended synthesis profile as mechanism-to-performance,
+  application-to-performance, evidence-to-design, or a justified hybrid.
+- Populate [assets/journal-target-ladder.csv](assets/journal-target-ladder.csv) before
+  committing to a journal-specific rewrite.
+- Record the intended scientific level, material system, practical problem, date range,
+  and review type.
 - Search recent reviews and primary studies around the proposed concept.
 - Populate [assets/benchmark-review-matrix.csv](assets/benchmark-review-matrix.csv).
 - Separate material, mechanism, outcome, application, date-range, method, and synthesis-axis
   overlap.
 - Retain the topic only if it adds a defensible comparison unit, evidence framework,
   dataset, mechanism reconciliation, scale-up analysis, or reproducibility standard.
-- Write a one-sentence novelty claim. Redesign the topic if its novelty is only “more
-  recent papers.”
-
+- Write a one-sentence novelty claim. Redesign the topic if its novelty is only 鈥渕ore
+  recent papers.鈥?
 Read [references/benchmarking-protocol.md](references/benchmarking-protocol.md) when testing
 topic novelty.
 
+Read
+[references/high-ambition-journal-routing.md](references/high-ambition-journal-routing.md)
+before selecting a stretch journal, preparing an editorial proposal, or planning a
+high-to-lower journal cascade.
+
+Validate the target ladder:
+
+```bash
+python scripts/validate_journal_profile.py assets/journal-target-ladder.csv
+```
+
 ### 3. Learn the architecture of strong reviews
 
-- Inspect roughly 10–20 classic, influential, or field-defining reviews for recurring
+- Inspect roughly 10鈥?0 classic, influential, or field-defining reviews for recurring
   rhetorical and synthesis patterns.
 - Select three to six directly comparable recent reviews for close structural and visual
   benchmarking.
@@ -127,7 +149,7 @@ before finalizing the library.
   7. cross-study synthesis and design implications;
   8. scale-up, sustainability, reporting requirements, and research agenda;
   9. conclusions.
-- Do not label a narrative search “systematic” unless its protocol supports the claim.
+- Do not label a narrative search 鈥渟ystematic鈥?unless its protocol supports the claim.
 
 Read [references/manuscript-architecture.md](references/manuscript-architecture.md) when
 building or shortening the outline.
@@ -143,12 +165,12 @@ building or shortening the outline.
 - Mark incomplete fields `not reported`; never fill them by inference.
 - Reconcile batch summaries against the complete evidence matrix before section drafting.
 
-### 8. Draft in claim–evidence units
+### 8. Draft in claim鈥揺vidence units
 
 - Start each paragraph with a scientific claim or comparison, then provide evidence,
   boundary conditions, disagreement, and interpretation.
 - Use author-led sentences when attribution matters, without turning a section into a list
-  of “X et al. found…” statements.
+  of 鈥淴 et al. found鈥︹€?statements.
 - Split distinct claims and place each citation beside the statement it supports.
 - Prefer primary evidence for values and mechanisms; use reviews for orientation.
 - Separate observation from explanation. Use restrained language when the mechanism is
@@ -162,13 +184,20 @@ building or shortening the outline.
 
 - Build a visual-precedent bank from high-quality reviews and primary studies using
   [assets/visual-benchmark-matrix.csv](assets/visual-benchmark-matrix.csv).
-- Learn visual grammar—question, evidence type, panel logic, typography, density, caption
-  structure, and limitations—without copying composition.
+- Learn visual grammar鈥攓uestion, evidence type, panel logic, typography, density, caption
+  structure, and limitations鈥攚ithout copying composition.
 - Create one production brief per proposed figure using
   [assets/figure-brief.csv](assets/figure-brief.csv).
 - Give every figure one primary question and one scientific job: scope, material identity,
   process evidence, quantitative comparison, microstructure, mechanism, field scale, or
   decision framework.
+- Under a high-ambition profile, require the opening visual programme to include at least
+  one author-original synthesis that changes how evidence is compared or used. A collage,
+  taxonomy, or decorative graphical abstract does not satisfy this requirement.
+- Prefer information gain over figure count. For mechanism-oriented venues, prioritize
+  causal evidence maps, normalized comparisons, competing-hypothesis figures, and
+  uncertainty. For application-oriented venues, prioritize validated design windows,
+  durability, constructability, scale, and decision matrices.
 - Freeze acceptance criteria before producing or viewing the final composition. Record them
   in [assets/visual-acceptance-gate.csv](assets/visual-acceptance-gate.csv).
 - Remove a figure when its role duplicates another, its evidence is weak, the author
@@ -215,7 +244,7 @@ python scripts/validate_visual_plan.py \
 - If a panel contains dense axes, legends, microstructural annotations, or source text,
   allocate enough area for final-size reading. Split mixed scientific jobs into separate
   figures rather than shrinking them.
-- Treat 8–12 substantive figures as a possible range for a long review, not a quota.
+- Treat 8鈥?2 substantive figures as a possible range for a long review, not a quota.
 
 Validate provenance:
 
@@ -247,11 +276,23 @@ python scripts/validate_visual_acceptance.py assets/visual-acceptance-gate.csv
 
 ### 12. Synthesize, style, shorten, and audit
 
-- Compare material–mixture–processing combinations rather than papers.
+- Compare material鈥搈ixture鈥損rocessing combinations rather than papers.
 - Grade confidence using directness, measurement quality, consistency, and independent
   replication.
 - Identify stop criteria, failure modes, boundary conditions, and evidence maturity.
 - Apply the target journal's current author guide and inspect recent accepted articles.
+- Run a desk-rejection simulation against scope, article eligibility, novelty relative to
+  recent reviews, evidence density, method-label accuracy, quantitative contribution,
+  visual information gain, and reader utility.
+- If the review is targeted rather than exhaustive, say so plainly and report its
+  limitations; do not add PRISMA language or a flow diagram to create an appearance of
+  systematicity.
+- When data permit, normalize and synthesize effect magnitudes. When they do not, make the
+  missing descriptors and incompatible comparison bases an explicit result rather than
+  inventing pooled precision.
+- Prepare a transfer map before submission: identify which sections, figures, abstract
+  emphasis, and application depth would change for the best-fit and floor journals. Never
+  merely replace the journal name.
 - Use a verified journal template or restrained manuscript format. Do not imitate a random
   template or mechanically convert all prose to passive voice.
 - Remove generic background, repeated mechanisms, paper-by-paper catalogues, weak tables,
@@ -281,7 +322,10 @@ Unless the user requests otherwise, deliver:
 4. evidence, benchmark, figure-brief, figure-source, and visual-acceptance registers;
 5. a benchmark-gap and contradiction summary;
 6. a final audit summary separating verified facts from unresolved uncertainty;
-7. a rendered, visually inspected DOCX or PDF when manuscript production is requested.
+7. a target-journal ladder, eligibility record, and transfer map when journal targeting is
+   requested;
+8. a rendered, visually inspected DOCX or PDF when manuscript production is requested.
 
 Do not expose confidential source files, internal reviewer documents, temporary render files,
 or unpublished research data in final deliverables.
+
